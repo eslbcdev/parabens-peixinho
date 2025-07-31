@@ -1,0 +1,67 @@
+/*FOLHA DE ESTILO GLOBAL*/
+/*PROPRIEDADES GLOBAIS*/
+*{
+    box-sizing: border-box;
+    font-family: "Abril Fatface", "Red Hat Display", sans-serif;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at top, #DD0600, #000000);
+}
+
+#enter{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #F7EDEC;
+    padding: 57px;
+    box-shadow: 0 6px 10px #ED213A;
+}
+
+#enter .pword{
+    font-family: "Red Hat Display";
+    text-transform: lowercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#enter #password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#enter button{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-size: 17px;
+    font-family: "Red Hat Display";
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:#000000;
+    background-image: linear-gradient(to bottom, #ed213a, #93291e);
+    
+}
+
+
+
